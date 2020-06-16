@@ -1,0 +1,25 @@
+{
+  "name": "priceupdateapi",
+  "version": "1.0.0",
+  "description": "API to automatically update item price",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Megxos/automatic-price-update-api.git"
+  },
+  "author": "Mikah Elijah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Megxos/automatic-price-update-api/issues"
+  },
+  "homepage": "https://github.com/Megxos/automatic-price-update-api#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.9.19",
+    "request": "^2.88.2"
+  }
+}
